@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PropertiesInjection.LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-10T02:05:29" hostname="PLATOW42L0262" time="0.007">
+  <properties/>
+  <testcase name="testSomeLibraryMethod" classname="PropertiesInjection.LibraryTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
