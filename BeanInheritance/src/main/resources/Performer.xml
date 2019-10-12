@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd ">
+
+<bean id="guitar" class= "com.zensar.spring.instruments.Guitar"></bean>
+<bean id="tabla" class= "com.zensar.spring.instruments.Tabla"></bean>
+<bean id="Zakir Hussain" class="com.zensar.spring.performers.Instrumentalist">
+<property name="instrument" ref="guitar"> </property>
+<property name="song" value="mere naam tu"></property>
+</bean>
+
+
+<bean id="priya" parent="Zakir Hussain">
+<property name="song" value="kal ho na ho"></property>
+</bean>
+
+
+<bean id="aditi" parent="priya">
+<property name="instrument" ref="tabla"> </property></bean>
+</beans>
